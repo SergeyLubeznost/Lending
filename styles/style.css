@@ -181,6 +181,9 @@ span{
 .mini-container{
     display: flex;
     flex-wrap: wrap; 
+    position: relative;
+    bottom: -17px;
+    right: 4px;
     
 }
 
@@ -192,6 +195,9 @@ span{
     color: #FFFFFF;
     font-family: 'Nunito Sans';
     transition: all 1.5s ease;
+    position: relative;
+    top: 7px;
+    left: -4px;
 }
 .city{
     width: 178.488px;
@@ -232,6 +238,7 @@ span{
 .slideshow-container{
     max-width: 679px;
     position: relative;
+    top: 5px;
    
 }
 .image-slider{
@@ -265,7 +272,7 @@ span{
     color: #FFFFFF;
 }
 .prev{
-    margin-left: 30px;
+    margin-left: 12px;
 }
 .next{
     margin-right: 30px;
@@ -280,11 +287,14 @@ span{
     cursor: pointer;
     height: 9.57px;
     width: 9.57px;
-    margin: 0 11px;
+    margin: 0 9px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 50%; 
     display: inline-block;
-    transition: background-color 0.6s ease; 
+    transition: background-color 0.6s ease;
+    position: relative;
+    right: 10px;
+    bottom: 2px; 
 }
 .flex{
     display: flex;
@@ -293,7 +303,9 @@ span{
 .container-slider{
     display: flex;
     justify-content: space-between;
-   margin-left: -40px;
+    margin-left: -46px;
+    position: relative;
+    bottom: 19px;
 }
 .textlist{
    text-align: center;
@@ -306,7 +318,7 @@ span{
     line-height: 19px;
     color: #FFFFFF;
     text-transform: uppercase;
-    margin-right: 16px;
+    margin-right: 12px;
     padding-bottom: 6px;
     width: 200px;
     font-style: normal;
@@ -350,16 +362,22 @@ span{
 }
 .logosec4{
     width: 100%;
+    margin-left: -4px;
+    position: relative;
+    bottom: 22px;
 }
 
 iframe{
     margin-top: 31.21px;
     width: 817px;
     height:434px; 
+    position: relative;
+    top: -29px;
+    right: 3px;
 }
 
 .line{
-    margin-top: 55.5px;
+    margin-top: 14.5px;
 }
 .facility{
     margin-top: 29.54px;
@@ -370,12 +388,18 @@ iframe{
     text-align: center;
     color: #363636;
     font-family: 'Nunito Sans';
+    position: relative;
+    top: -26px;
+    right: 2px;
 }
 .containerForm{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 91.5px;
+    position: relative;
+    bottom: 55px;
+    left: -34px;
 }
 .form{
     display: flex;
@@ -393,11 +417,13 @@ iframe{
     width: 231px;
     border: none;
     border-bottom:2px solid gray;
+    margin-right: 24px;
+    margin-top: 9px;
 }
 
 .for{
     position: relative;
-    top: -19px;
+    top: -13px;
     left: 36px;
     font-style: normal;
     font-weight: 400;
@@ -422,12 +448,16 @@ iframe{
     text-transform: uppercase;
     color: #FFFFFF;
     background: #E3B873;
+    position: relative;
+    left: 23px;
 }
 
 .checkboxCont{
     margin-top: 39px;
     width: 800px;
-    
+    position: relative;
+    top: -6px;
+    left: 27px;
 }
 
 .labelq {
@@ -470,13 +500,18 @@ iframe{
     flex-direction: column;
     margin-top: 32px;
 }
-
+.logosec4{
+    margin-left: -12px;
+}
 .groupCard{
     margin-top: 31px;
     width: 1236px;
     height: 608px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    bottom: 7px;
+    left: -3px;
 }
 .card{
   height:608px;
@@ -502,10 +537,16 @@ iframe{
     background-color: #fff;
     width: 330px;
     height: 286px;
-    margin: -120px auto;
+    margin: -127px auto;
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     padding: 25px 34px;
+  }
+
+  .orderCard ul{
+    position: relative;
+    left: -26px;
+    top: -10px;
   }
   .titleCard{
       font-style: normal;
@@ -514,7 +555,7 @@ iframe{
       line-height: 25px;
       color: #363636;
       font-family: 'Yeseva One';
-      margin-left: 22px;
+      margin-left: -2px;
   }
 
   .orderCard ul li{
@@ -538,7 +579,7 @@ iframe{
     color: #FFFFFF;
     background: #E3B873;
     border: none;
-    margin-top:92px;
+    margin-top:100px;
     margin-left: 31px;
 } 
 /*section5*/
@@ -567,11 +608,13 @@ iframe{
 
 .containerLeft{
     width: 416.81px;
-    height: 497.62px;
+    height: 532.62px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 56px;
+    position: relative;
+    left: 119px;
+    top: -14px;
 }
 
 .logoLeft{
@@ -621,7 +664,8 @@ iframe{
     align-items: center;
     background-color: #131313;
     margin-top: 117.14px;
-    
+    position: relative;
+    top: 1px;
 }
 .paragRight{
     font-style: normal;
@@ -631,7 +675,7 @@ iframe{
     text-align: center;
     color: #FFFFFF;
     font-family: 'Nunito Sans';
-    margin-top: 28px;
+    margin-top: 26px;
 }
 .formTwo{
     height: 395px;
@@ -639,6 +683,8 @@ iframe{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
+    bottom: 12px;
 }
 .labelTwo{
     font-style: normal;
@@ -648,7 +694,7 @@ iframe{
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Nunito Sans';
     position: relative;
-    top:24px;
+    top:22px;
 }
 
 .inputTwo{
@@ -693,16 +739,21 @@ iframe{
     color: #FFFFFF;
     padding: 18.72px 22px;
     align-self: flex-end;
+    position: relative;
+    top: 11px;
+    right: 7px;
 }
 .pork{
-    margin-top: -177px;
+   
     text-align: end;
-    padding-right: 370px;
-    padding-left: auto;
+    padding-right: 170px;
+    position: relative;
+    top: -177px;
+    left: -5px;
 }
 /*Section 6*/
 .sectionSix{
-    margin-top: 242.09px;
+    margin-top: 253.09000000000003px;
     width: 100%;
     height: 864px;
 background-image: url("../img/image 5.1.png");
@@ -727,6 +778,9 @@ background-image: url("../img/image 5.1.png");
     align-items:start;
     padding-top: 107.47px;
     text-align: left;
+    position: relative;
+    top: -1px;
+    left: -41px;
 }
 .orderSix p{
     margin-left: 31px;
@@ -766,6 +820,9 @@ background-image: url("../img/image 5.1.png");
     gap: 43px;
     box-sizing: content-box;
     margin-top: -42px;
+    position: relative;
+    top: 1px;
+    right: 3px;
 }
 .showBck1{
     background-image: url("../img/image 5.png");
@@ -831,6 +888,9 @@ background-image: url("../img/image 5.1.png");
     flex-direction: column;
     margin: 0 auto;
     width:134px;
+    position: relative;
+    top: 3px;
+    left: -4px;
 }
 
 .imgSec img{
@@ -845,12 +905,107 @@ margin-bottom: 16.49px;
     text-align: center;
     color: #363636;
     font-family: 'Nunito Sans';
+    position: relative;
+    bottom: 22px;
+    right: 3px;
     }
 .containerSec7{
     width: 1236px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
+.cardMen{
+    width: 377px;
+    height: 421px;
+    padding-left: 20px;
+    padding-right: 31.92px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.title7{
+    display: flex;
+justify-content: space-between;
+position: relative;
+bottom: -12px;
+right: 5px;
+}
+.title7 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    font-family: 'Yeseva One';
+    text-align: center;
+    margin-right: 80px;
+    position: relative;
+    position: relative;
+    top: -1px;
+    left: 1px;
+}
+
+.titleP{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    font-family: 'Nunito Sans';
+    margin-top: 17px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.groupOrange{
+    display: flex;
+    width: 293.75px;
+    margin-top: 81px;
+    margin-left: -21px;
+}
+.orange{
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 135.875px;
+    height: 55px;
+    padding-top: 21.14px;
+    padding-bottom: 21.38px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-right: 1px solid white;
+}
+.orange .p1{
+    padding-left: 15px;
+}
+.orange .p2{
+    padding-left: 16px;
+}
+.fut{
+    padding-left: 13px;
+    width: 157px;
+}
+.maria{
+    position: relative;
+    left: 13px; 
+}
+.sergey{
+    position: relative;
+    left: 13px;
+
+}
+.egor{
+    padding-right: 37px;
+}
 @media screen and (min-width:1300px){
     .conteiner-sections{
         margin: auto;
