@@ -1006,6 +1006,150 @@ right: 5px;
 .egor{
     padding-right: 37px;
 }
+
+/*section 9*/
+
+.secEight{
+    height: 953.9px;
+    background-image: url("../img/image 7.2.jpg");
+    background-size: cover;
+
+     width: 100%;
+}
+
+.secCont8{
+    height: 953.9px; 
+    width: 100%;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+   
+}
+.formSecEight{
+    background: black;
+    width: 883px;
+    height: 445.32px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 223px;
+    left: 5px;
+    padding-top: 14px;
+}
+.titleEight{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sec8form{
+    width: 520px;
+    height: 376.62px;
+    margin: 0 auto;
+
+}
+
+.input8{
+    display: flex;
+    position: relative;
+    top: 46px;
+    left: -7px;
+}
+.labelInput{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Nunito Sans';
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    bottom: 21px;
+    left: 39px;
+}
+.labelInput3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Nunito Sans';
+    color: rgba(255, 255, 255, 0.5);
+}
+.labelInput1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Nunito Sans';
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    bottom: 21px;
+    left: 8px;
+}
+.flexInput3{
+    width:516.82px;
+   background-color: #000000;
+   border: none;
+   border-bottom: rgba(255, 255, 255, 0.15) 2px solid;
+   padding-bottom: 8px;
+}
+.flexInput3::placeholder{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.flexInput{
+    width: 231px;
+   background-color: #000000;
+   border: none;
+   border-bottom: rgba(255, 255, 255, 0.15) 2px solid;
+   padding-bottom: 8px;
+}
+.name8{
+    position: relative;
+    right: 28px;
+}
+.flexInput::placeholder{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    font-style: normal;
+    color: #FFFFFF;
+    
+}
+.quest{
+    width:516.82px;
+    margin-top: 87px;
+}
+.first-checkboxq8{
+    display: flex;
+    align-items: center;
+    /* margin: 44px auto; */
+    margin-top: 45px;
+    margin-left: 117px;
+}
+.sec8But{
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    width: 203px;
+    height: 54px;
+    background: #E3B873;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-left: 159px;
+    padding-top: 5px;
+}
+
 @media screen and (min-width:1300px){
     .conteiner-sections{
         margin: auto;
