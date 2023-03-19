@@ -881,6 +881,10 @@ background-image: url("../img/image 5.1.png");
 .sectionSeven{
     height: 1107.11px;
     padding-top: 110.47px;
+    background-image: url("../img/gorod.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
 }
 
 .imgSec{
@@ -1150,6 +1154,119 @@ right: 5px;
     padding-top: 5px;
 }
 
+.title8 p {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.title8{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    display: flex;
+    margin-top: -193px;
+    margin-left: 72px;
+}
+
+.title8 img{
+    position: relative;
+    top: 66px;
+    right: 306px;
+    margin-right: 15px;
+}
+
+.geoCard{
+    width: 925px;
+    background-image: url("../img/image 7.1.png");
+    height: 463px;
+    margin: 76px auto;
+    position: relative;
+    right: 6px;
+}
+
+.logo1{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.button1{
+    border:none;
+    padding: 33, 13, 33, 13;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    width:161px;
+    height:37px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-navigation1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.item_navigation1{
+    list-style: none;
+    margin-right: 47px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Nunito Sans';
+    color: #FFFFFF;
+}
+.item_navigation1 a{
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.item_navigation1 a:hover{
+    color: #E3B873;
+}
+.mobille1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.conteiner-head1{
+    width: 1256px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 133px;
+}
+
+footer{
+    background: #181818;
+    width:100%;
+    height: 133px;
+}
+.mobileFooter{
+    display: none;
+}
 @media screen and (min-width:1300px){
     .conteiner-sections{
         margin: auto;
@@ -1311,26 +1428,25 @@ right: 5px;
     display:inline-block;
     position: relative;
     top: 260px;
-    left: 279px;
+    left: 303px;
     z-index: 1;
-    border-radius: 50px;
-    background-color: #E3B873;
+    scale: 2;
 }
 .mobnext{
     display: inline-block;
     position: relative;
     top: 260px;
     z-index: 1;
-    right: 47px;
-    border-radius: 50px;
-    background-color: #E3B873;
+    right: 33px;
+    scale: 2;
 }
 
 /*Section 3*/
 .onlinecontrol{
-    margin-top: -60px;
+    margin-top: -18px;
     background-color: #131313;
     height: 900px;
+    
 }
 iframe{
     margin-top: 40px;
@@ -1361,6 +1477,8 @@ iframe{
     align-items: center;
     text-align: center;
     width: 340px;
+    position: relative;
+    top: 20px;
 }
 
 .inputsec4{
@@ -1388,7 +1506,8 @@ iframe{
     width: 340px;
     height: 51px;
     position: relative;
-    top: 106.96px;
+    top: 133.95999999999998px;
+
     
 }
 
@@ -1410,7 +1529,8 @@ iframe{
 /*Section 4 */
 
 .sectionFour{
-    margin-top: 83px;
+    margin-top: -26px;
+    height: 2030px;
 }
 
 .groupCard{
@@ -1492,4 +1612,132 @@ iframe{
     margin-left: 0px;
 }
 
+.sectionFive, .pork, .section5, .sectionSix, .sectionSeven, .secEight, footer{
+    display: none;
+}
+
+.mobileFooter{
+    background-color: #000000;
+    height: 1189px;
+    display: block;
+}
+.containerFooter{
+    margin-top: 204px;
+    position: relative;
+    bottom: 214px;
+}
+
+.titleFooter{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    width: 340px;
+    height: 66px;
+    margin: 0 auto;
+}
+
+.imageFooter{
+  width: 340px;
+ height: 242px;
+ background-image: url("../img/image 5.1.png");
+ background-position: center;
+ background-size: cover;
+ margin: 24px auto;
+}
+
+.next1{
+    position: relative;
+    top: 37%;
+}
+
+.prev1{
+    position: relative;
+    top: 37%;
+    left: 207px;
+}
+
+.formSecEight {
+width: 340px;
+display: flex;
+flex-direction: column;
+}
+.sec8form{
+    width: 340px;
+}
+.input8{
+    width: 340px;
+    flex-wrap: wrap;
+    left: 0px;
+}
+.flexInput{
+    width: 340px;
+    right: 0px;
+    margin-bottom: 62px;
+}
+.labelInput{
+    bottom: 7px;
+    left: 0px;
+}
+.labelInput1{
+    bottom: 7px;
+    left: 0px;
+}
+.quest{
+    width: 340px;
+    margin-top: 50px;
+}
+.flexInput3{
+    width: 340px;
+}
+.labelInput3{
+    position: relative;
+    bottom: 7px;
+    left: 0px;
+}
+
+.first-checkboxq8{
+    margin-left: 0px;
+    margin-top: 22px;
+}
+
+.sec8But{
+    width: 340px;
+    margin-top: 63px;
+    margin-left: 0px;
+}
+.geoCard{
+    width: 340px;
+    height: 242px;
+    margin: -48px auto;
+    right: -5px;
+}
+
+.title8{
+    margin: 67px auto;
+    width: 340px;
+    position: relative;
+    left: -45px;
+}
+.title8 p{
+    width: 340px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.6%;
+    font-family: 'Yeseva One';
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.title8 img {
+    position: relative;
+    top: 66px;
+    right: 168px;
+    margin-right: -74px;
+}
 }
