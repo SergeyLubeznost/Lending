@@ -882,9 +882,9 @@ background-image: url("../img/image 5.1.png");
     height: 1107.11px;
     padding-top: 110.47px;
     background-image: url("../img/gorod.png");
-    background-repeat: no-repeat;
+    background-repeat:repeat-x;
     background-position: bottom;
-    width: 100%;
+    width: 1440px;
 }
 
 .imgSec{
