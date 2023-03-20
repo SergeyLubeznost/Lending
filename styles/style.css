@@ -884,9 +884,15 @@ background-image: url("../img/image 5.1.png");
     background-image: url("../img/gorod.png");
     background-repeat:repeat-x;
     background-position: bottom;
-    width: 1440px;
+    width:100%;
+    margin: 0px auto;
 }
-
+.bckWhite{
+    opacity: 0.8;
+    background: #ffffff;
+    height: 998.1099999999999px;
+    width: 100%;
+}
 .imgSec{
     display: flex;
     flex-direction: column;
@@ -1479,6 +1485,8 @@ iframe{
     width: 340px;
     position: relative;
     top: 20px;
+    right: -33px;
+    margin: auto;
 }
 
 .inputsec4{
@@ -1507,7 +1515,7 @@ iframe{
     height: 51px;
     position: relative;
     top: 133.95999999999998px;
-
+    left: 0px;
     
 }
 
@@ -1714,7 +1722,7 @@ flex-direction: column;
     width: 340px;
     height: 242px;
     margin: -48px auto;
-    right: -5px;
+    right: -1px;
 }
 
 .title8{
